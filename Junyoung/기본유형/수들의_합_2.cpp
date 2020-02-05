@@ -17,12 +17,10 @@ int N, M;
 int idx = 0, psum = 0, cnt = 0;
 vector<int> A;
 
-int main()
-{
+int main(){
   scanf("%d %d", &N, &M);
 
-  FOR(i, 0, N)
-  {
+  FOR(i, 0, N){
     int num;
     scanf("%d", &num);
     A.push_back(num);
