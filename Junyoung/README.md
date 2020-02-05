@@ -1,10 +1,11 @@
 # 알고리즘 학습 내역
-[백준 프로필](https://www.acmicpc.net/user/cupjoo)
 
+[백준 프로필](https://www.acmicpc.net/user/cupjoo)
 
 ### ACM-ICPC
 
 인터넷 예선
+
 - [2004/벌집](./ACM-ICPC/벌집.cpp) (규칙 찾기)
 - [2011/골드바흐의 추측](./ACM-ICPC/골드바흐의_추측.cpp) (소수)
 - [2013/카잉 달력](./ACM-ICPC/카잉_달력.cpp) (규칙 찾기)
@@ -13,10 +14,11 @@
 - [2015/파일 합치기](./ACM-ICPC/파일_합치기.cpp) (DP & 부분 합)
 
 지역 본선
+
 - [2005/분해합](./ACM-ICPC/분해합.cpp) (브루트포스)
-- [2011/화학_제품](./ACM-ICPC/화학_제품.cpp) (Brute-Force & Greedy)
+- [2011/화학\_제품](./ACM-ICPC/화학_제품.cpp) (Brute-Force & Greedy)
 - [2011/거북이](./ACM-ICPC/거북이.cpp) (방향전환)
-- [2012/막대_배치](./ACM-ICPC/막대_배치.cpp) (DP)
+- [2012/막대\_배치](./ACM-ICPC/막대_배치.cpp) (DP)
 - [2013/스티커](./ACM-ICPC/스티커.cpp) (DP)
 - [2013/직사각형 집합](./ACM-ICPC/직사각형_집합.cpp) (수학 & 이진탐색)
 - [2013/박스](./ACM-ICPC/박스.cpp)
@@ -30,11 +32,10 @@
 - [2016/로봇](./ACM-ICPC/로봇.cpp) (방향전환)
 - [2017/Happy Number](./ACM-ICPC/Happy_Number.cpp) (큰 수 처리)
 
-
-
 ### Google Code Jam
 
 Qualification Round
+
 - [2015/Ominous Omino](./Google/Ominous_Omino.cpp)
 - [2016/Counting Sheep](./Google/Counting_Sheep.cpp)
 - [2017/Oversized Pancake Flipper](./Google/Oversized_Pancake_Flipper.cpp)
@@ -54,6 +55,7 @@ Round 3
 ### SAMSUNG
 
 삼성 SW 역량 테스트
+
 - [경사로](./Samsung/경사로.cpp) (시뮬레이션)
 - [감시](./Samsung/감시.cpp) (방향전환 & 브루트포스)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
@@ -70,10 +72,12 @@ Round 3
 - [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
 
 삼성 SDS 알고리즘 특강 선발 테스트
+
 - [쿼드트리](./Samsung/쿼드트리.cpp) (DFS)
 - [일렬연결망](./Samsung/일렬연결망.cpp) (역순회)
 
 SCPC 1차 예선
+
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
 - [2017/주식거래](./Samsung/주식거래.cpp) (Greedy)
 - [2018/버스 타기](./Samsung/버스_타기.cpp) (Greedy)
@@ -82,6 +86,7 @@ SCPC 1차 예선
 - [2019/공 굴리기](./Samsung/공_굴리기.cpp)
 
 SCPC 2차 예선
+
 - [2019/소수 수열](./Samsung/소수_수열.cpp)
 - [2019/유사도](./Samsung/유사도.cpp)
 
@@ -90,6 +95,7 @@ SCPC 본선
 ### KAKAO
 
 KAKAO BLIND RECRUITMENT
+
 - [2018 1차/비밀 지도](./Kakao/비밀_지도.cpp)
 - [2018 1차/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
 - [2019/2번](./Kakao/2.cpp)
@@ -110,11 +116,11 @@ NAVER AI Buring Day
 - [2020/task1](./Naver/2020_task1.cpp) (DFS & 문자열 & 해쉬)
 
 ### 국방 오픈소스 아카데미
+
 - [1. 공정한 심사](./Osam/1_공정한_심사.cpp)
 - [2. 행운권 추첨](./Osam/2_행운권_추첨.cpp)
 - [3. UI EVENT](./Osam/3_UI_EVENT.cpp)
 - [4. 흔한 제목 찾기](./Osam/4_흔한_제목_찾기.cpp)
-
 
 ### 알고리즘 기본 유형
 
@@ -164,6 +170,7 @@ NAVER AI Buring Day
 - [조세퍼스 문제](./기본유형/조세퍼스_문제.cpp) (큐)
 
 탐색
+
 - [숫자 야구](./기본유형/숫자_야구.cpp) (브루트포스)
 - [부분수열의 합](./기본유형/부분수열의_합.cpp) (DFS)
 - [미로찾기](./기본유형/미로찾기.cpp) (BFS)
@@ -176,6 +183,7 @@ NAVER AI Buring Day
 - [열혈강호](./기본유형/열혈강호.cpp) (DFS & 이분매칭)
 
 그래프
+
 - [연결 요소의 개수](./기본유형/연결_요소의_개수.cpp) (DFS)
 - [빙산](./기본유형/빙산.cpp) (BFS & DFS)
 
@@ -186,16 +194,19 @@ NAVER AI Buring Day
 - [흔한 제목 찾기](./기본유형/흔한_제목_찾기.cpp)
 
 구현
+
 - [수 이어 쓰기 2](./기본유형/수_이어_쓰기_2.cpp)
 - [수 이어 쓰기 3](./기본유형/수_이어_쓰기_3.cpp)
 - [정렬](./기본유형/정렬.cpp)
 
 투 포인터
+
 - [부분합](./기본유형/부분합.cpp) (부분합)
+- [수들의 합 2](./기본유형/수들의_합_2.cpp) (부분합)
 
 비트 마스크
-- [중복 제거](./기본유형/중복_제거.cpp)
 
+- [중복 제거](./기본유형/중복_제거.cpp)
 
 최단 거리
 

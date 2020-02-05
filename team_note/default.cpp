@@ -1,11 +1,6 @@
 // 
 
-#include <cstdio>
-#include <cstring>
-#include <string>
-#include <queue>
-#include <algorithm>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 #define FOR(i,s,e) for(int i = s; i < e; i++)
