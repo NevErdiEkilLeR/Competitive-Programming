@@ -1,41 +1,43 @@
-#include <cstdio>
-#include <string>
-#include <sstream>
-#include <vector>
-using namespace std;
+class StringTest {
+	public StringTest(){
+		String text = "My name is Junyoung";
 
-const int MAXLEN = 10000 + 2;
+		System.out.println(text.equals("My name is Junyoung"));
+		System.out.println(text.indexOf("me"));  // O(n), else -1
 
-vector<int> get_num() {
-	vector<int> out;
-	int token;
-	while (scanf("%1d", &token) != EOF)	out.push_back(token);
-	return out;
-}
+		// replace
+		text = text.replaceAll("Junyoung", "Charley");
 
-// faster than getline
-string str_in() {
-	char input[MAXLEN];
-	fgets(input, MAXLEN, stdin);
-	input[strlen(input)-1] = '\0';
-	return (string)input;
-}
+		// substring
+		text = text.substring(11) + ", " + text.substring(0, 11);
+		System.out.println(text);
+		// split
+		String[] tokens = text.split(" ");
+		for(String token : tokens){
+			System.out.println(token);
+		}
 
-vector<string> split(string in, char delim) {
-	vector <string> out;
-	stringstream ss(in);
-	string token;
-	while (getline(ss, token, delim))	out.push_back(token);
-	return out;
-}
+		// concat
+		String sum = tokens[0]
+				.concat(tokens[1])
+				.concat(tokens[2]); // +
+		sum += tokens[3];           // by StringBuilder
+		System.out.println(sum);
 
-int main(){
-	// substr
-	string a = "nice_to_meet_you";
-	// nice_to_meet_you
-	string a1 = a.substr();
-	// to_meet_you
-	string a2 = a.substr(5);
-	// e_to_
-	string a3 = a.substr(3, 5);
+		// StringBuilder
+		StringBuilder builder = new StringBuilder();
+		for(String token : tokens){
+			builder.append(token);
+		}
+		System.out.println(builder.toString());
+
+		// compareTo
+		System.out.println("bbb".compareTo("bbb"));     // 0, equals
+		System.out.println("bbb".compareTo("b"));       // 2, length
+		System.out.println("bbb".compareTo("bbbbbb"));  // -3, length
+		System.out.println("bbb".compareTo("bbbccc"));  // -3, length
+		System.out.println("bbb".compareTo("cccccc"));  // -1, dictionary order
+		System.out.println("bbb".compareTo("ccc"));     // -1, dictionary order
+		System.out.println("bbb".compareTo("aaa"));     // 1, dictionary order
+	}
 }
