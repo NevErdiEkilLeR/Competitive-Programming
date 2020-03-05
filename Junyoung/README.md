@@ -168,6 +168,8 @@ NAVER AI Buring Day
 - [구간 합 구하기 3](./기본유형/구간_합_구하기_3.java) (2D 펜윅트리)
 - [K진 트리](./기본유형/K진_트리.java) (LCA)
 - [LCA](./기본유형/LCA.java) (LCA)
+- [LCA 2](./기본유형/LCA_2.java) (LCA & DP)
+- [정점들의 거리](./기본유형/정점들의_거리.java) (LCA & DP)
 
 ## 그래프
 
@@ -191,6 +193,7 @@ NAVER AI Buring Day
 
 ## 기타 알고리즘 기법
 
+- [Ax+Bsin(x)=C](./기본유형/AxBsinxC.java) (BigDecimal)
 - [수 이어 쓰기 2](./기본유형/수_이어_쓰기_2.cpp) (구현)
 - [수 이어 쓰기 3](./기본유형/수_이어_쓰기_3.cpp) (구현)
 - [정렬](./기본유형/정렬.cpp) (구현)
