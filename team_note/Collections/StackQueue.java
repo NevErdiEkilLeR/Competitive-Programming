@@ -28,8 +28,30 @@ class QueueTest {
     }
 }
 
+class Prisoner implements Comparable<Prisoner>{
+    String name;
+    int weight;
+
+    public Prisoner(String name, int weight){
+        this.name = name;
+        this.weight = weight;
+    }
+    @Override
+    public int compareTo(Prisoner o) {
+        return this.weight >= o.weight ? 1 : -1;
+    }
+}
+
 class PriorityQueueTest {
     public PriorityQueueTest(){
+        PriorityQueue<Prisoner> pq = new PriorityQueue<>();
+        pq.offer(new Prisoner("junyoung", 5));
+        pq.offer(new Prisoner("cupjoo", 15));
+        pq.offer(new Prisoner("Pacquiao", 10));
 
+        if(!pq.isEmpty()){
+            Prisoner p = pq.poll();
+            System.out.println(p.name);
+        }
     }
 }
