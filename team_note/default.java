@@ -8,6 +8,9 @@ class Solution {
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     StringTokenizer st;
 
+    // long range: 1e18 + a / 1<<63 -1
+    // int range: 1e9 + a / 1<<31-1
+
     final int MAXN = 100+2;
 
     int N;
