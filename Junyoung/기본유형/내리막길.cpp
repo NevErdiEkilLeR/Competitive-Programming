@@ -11,7 +11,7 @@ int dc[] = { 0,0,1,-1 };
 
 int M, N;
 int map[MAX_N][MAX_N];
-int dp[MAX_N][MAX_N];	// 각 위치에서 가능한 경우의 수
+int dp[MAX_N][MAX_N];
 
 int dfs(int r, int c) {
 	if ((r == M) && (c == N))	return 1;

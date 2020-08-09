@@ -13,14 +13,14 @@ int bi_search(ll s, ll e) {
 	if (s > e)	return -1;
 
 	int cnt = 0;
-	ll m = (s + e) / 2;	// int 범위를 넘어설 수 있음
+	ll m = (s + e) / 2;
 
 	for (int i = 0; i < K; i++) {
 		cnt += lan[i] / m;
 	}
 	if (cnt >= N) {
-		int next = bi_search(m+1, e);	// int 범위를 넘어설 수 있음
-		return max(next, (int)m);	// 더 크게 잘랐을 때도 N이 나올 수 있음
+		int next = bi_search(m+1, e);
+		return max(next, (int)m);
 	}
 	return bi_search(s, m-1);
 }
