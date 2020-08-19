@@ -72,6 +72,10 @@ Round 3
 - [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
 - [스도쿠](./Samsung/스도쿠.java) (브루트포스)
 
+Codeground 연습 문제
+
+- [산책](./Samsung/산책.java) (브루투포스)
+
 삼성 SDS 알고리즘 특강 선발 테스트
 
 - [쿼드트리](./Samsung/쿼드트리.cpp) (DFS)
