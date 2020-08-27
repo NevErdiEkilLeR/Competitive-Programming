@@ -103,8 +103,10 @@ KAKAO BLIND RECRUITMENT
 
 - [2018 1차/비밀 지도](./Kakao/비밀_지도.cpp)
 - [2018 1차/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
+- [2018_1차/뉴스 클러스터링](./Kakao/뉴스_클러스터링.java) (문자열 & 해쉬 & 정규표현식)
 - [2019/2번](./Kakao/2.cpp)
 - [2019/가사 검색](./Kakao/가사_검색.cpp) (문자열)
+- [2020/문자열 압축](./Kakao/문자열_압축.java) (문자열)
 
 KAKAO Code Festival 예선
 
