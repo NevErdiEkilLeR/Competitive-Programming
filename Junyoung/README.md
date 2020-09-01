@@ -16,6 +16,7 @@
 지역 본선
 
 - [2005/분해합](./ACM-ICPC/분해합.cpp) (브루트포스)
+- [2007/전화번호 목록](./ACM-ICPC/전화번호_목록.java) (Trie)
 - [2011/화학\_제품](./ACM-ICPC/화학_제품.cpp) (Brute-Force & Greedy)
 - [2011/거북이](./ACM-ICPC/거북이.cpp) (방향전환)
 - [2012/막대\_배치](./ACM-ICPC/막대_배치.cpp) (DP)
