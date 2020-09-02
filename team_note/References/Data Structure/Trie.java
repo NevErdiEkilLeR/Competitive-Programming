@@ -6,16 +6,16 @@ class Trie {
 
     public void insert(String word){
         TrieNode now = root;
-        for(int i = 0; i < word.length(); i++){
-            now = now.children.computeIfAbsent(word.charAt(i), c -> new TrieNode());
+        for(char ch : word.toCharArray()){
+            now = now.children.computeIfAbsent(ch, c -> new TrieNode());
         }
         now.isTerminal = true;
     }
 
     public boolean contains(String word){
         TrieNode now = root;
-        for(int i = 0; i < word.length(); i++){
-            TrieNode next = now.children.get(word.charAt(i));
+        for(char ch : word.toCharArray()){
+            TrieNode next = now.children.get(ch);
             if(next == null)    return false;
             now = next;
         }
