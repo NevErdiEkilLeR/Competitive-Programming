@@ -57,10 +57,11 @@ class Solution {
         }
         this.N = N;
         findParent(1);
+
         int[] ans = new int[query.length];
         for(int i = 0; i < query.length; i++){
             int a = query[i][0], b = query[i][1];
-            ans[i] = d[a]+d[b]-2*d[lca(a,b)]+1;
+            ans[i] = d[a] + d[b] - 2*d[lca(a,b)] + 1;
         }
         return ans;
     }
